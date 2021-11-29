@@ -14,9 +14,9 @@ A ideia por trás da nossa implementação pode ser descrita no seguinte passo a
 A complexidade desse algoritmo é O(n!)
 
 ## Conclusão
-Não demos a devida importância ao desafio e acabamos deixando o desenvolvimento e escolha do algoritmo para ultima hora. Então a implementação de uma busca por força bruta foi a melhor solução devido as circunstâncias.
+Devido ao status 2 e outras entregas de fim de período, acabamos deixando o desenvolvimento e escolha do algoritmo para ultima hora. Logo a implementação de uma busca por força bruta foi a melhor solução devido as circunstâncias.
 
 ### Outras possíveis soluções:
-- A melhor abordagem pra esse cenário talvez fosse o uso de programação dinamica, ja que reduziria o número de possíveis combinações eliminando as que não poderão fazer parte de uma solução ótima do problema, deixando o algoritmo mais eficiente.
+- A melhor abordagem pra esse cenário talvez fosse o uso de programação dinamica, ja que reduziria o número de possíveis combinações e eliminaria as que não fariam parte de uma solução ótima do problema, deixando o algoritmo mais eficiente.
 - Em casos de PCVs contendo de 40 a 60 cidades, uasr o algoritmo branch-and-bound seria a melhor escolha. 
 - Em casos de PCVs contendo até 200 cidades, algoritmos de melhoria progressiva que usam técnicas que lembram a programação linear funcionam bem.
